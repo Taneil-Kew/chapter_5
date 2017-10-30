@@ -1,11 +1,11 @@
 def marktograde(num):
     if num >= 90:
         return "Great"
-    elif num >= 80:
+    elif num >= 80 and num<90:
         return "Good"
-    elif num >= 70:
+    elif num >= 70 and num<80:
         return "OK"
-    elif num>= 60:
+    elif num>= 60 and num<70:
         return "Fair"
     elif num >= 50:
         return "Needs Help"
